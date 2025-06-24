@@ -1,0 +1,4 @@
+jdk: openjdk11
+android:
+  build-tools: 30.0.3
+  compile-sdk: 33

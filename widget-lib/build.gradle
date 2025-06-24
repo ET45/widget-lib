@@ -15,12 +15,14 @@ apply plugin: 'kotlin-android'
 
 android {
     namespace 'com.essent.widget'
-    compileSdkVersion 35
+    compileSdkVersion 33
 
     defaultConfig {
         minSdkVersion 24
-        targetSdkVersion 35
+        targetSdkVersion 33
     }
+
+    resourcePrefix 'widget_'
 
     buildFeatures {
         viewBinding true
