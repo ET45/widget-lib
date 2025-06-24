@@ -1,10 +1,3 @@
-<style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-<item name="android:windowBackground">@drawable/splash_background</item>
-    <item name="colorPrimary">@color/primary</item>
-    <item name="colorPrimaryDark">@color/primary</item>
-    <item name="colorAccent">@color/primary</item>
-
-    <item name="android:windowSplashScreenBackground">@color/primary</item>
-    <item name="android:windowSplashScreenAnimatedIcon">@color/primary</item>
-    <item name="android:windowTranslucentNavigation">true</item>
-</style>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>
