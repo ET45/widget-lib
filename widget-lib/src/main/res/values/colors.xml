@@ -1,0 +1,20 @@
+<resources>
+    <!-- Background & Surface -->
+    <color name="widget_bg_default">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="widget_text_primary">#000000</color>
+    <color name="widget_text_secondary">#4D4D4D</color>
+
+    <!-- Accent / Highlight -->
+    <color name="widget_accent">#E60167</color>
+
+    <!-- Icon Tint -->
+    <color name="widget_icon_tint">#E60167</color>
+
+    <!-- Legacy primary colors required by some libraries -->
+    <color name="primary">#E60167</color>
+    <color name="primaryDark">#B30056</color>
+    <color name="primaryLight">#FF4EA0</color>
+    <color name="accent">#E60167</color>
+</resources>

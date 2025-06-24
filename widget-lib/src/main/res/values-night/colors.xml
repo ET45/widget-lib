@@ -1,0 +1,19 @@
+<resources>
+    <!-- Background & Surface -->
+    <color name="widget_bg_default">#282828</color>
+
+    <!-- Text Colors -->
+    <color name="widget_text_primary">#E6E6E6</color>
+    <color name="widget_text_secondary">#B3B3B3</color>
+
+
+    <!-- Legacy dark-mode overrides -->
+    <color name="primary">#FE58A3</color>
+    <color name="primaryDark">#D84285</color>
+    <color name="primaryLight">#FF7ABA</color>
+
+    <!-- Widget bar colors (dark mode) -->
+    <color name="bar_min_valid">#AAE2AA</color> 
+    <color name="bar_past">#333333</color> 
+
+</resources>
