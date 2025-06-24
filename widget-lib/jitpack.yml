@@ -1,5 +1,5 @@
 jdk: openjdk11
 
 android:
-  sdk: 34
   build-tools: 30.0.3
+  compile-sdk: 34
