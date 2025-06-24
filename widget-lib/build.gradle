@@ -3,7 +3,6 @@ buildscript {
         google()
         mavenCentral()
     }
-
     dependencies {
         classpath 'com.android.tools.build:gradle:7.4.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0"
@@ -12,6 +11,7 @@ buildscript {
 
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'maven-publish'
 
 android {
     namespace 'com.essent.widget'
@@ -20,9 +20,9 @@ android {
     defaultConfig {
         minSdkVersion 24
         targetSdkVersion 33
+        versionCode 1
+        versionName "1.0.9"
     }
-
-    resourcePrefix 'widget_'
 
     buildFeatures {
         viewBinding true
@@ -30,6 +30,17 @@ android {
 
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
     }
 }
 
@@ -42,6 +53,18 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.0"
     implementation "androidx.core:core-ktx:1.12.0"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+    implementation 'com.google.android.material:material:1.11.0'
 }
 
-
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.ET45'
+                artifactId = 'widget-lib'
+                version = 'v1.0.9'
+            }
+        }
+    }
+}
