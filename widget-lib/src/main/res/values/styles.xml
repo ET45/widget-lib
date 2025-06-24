@@ -1,5 +1,5 @@
 <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-    <item name="android:windowBackground">#E60167</item>
+<item name="android:windowBackground">@color/jitpack_primary</item>
     <item name="colorPrimary">@color/primary</item>
     <item name="colorPrimaryDark">@color/primary</item>
     <item name="colorAccent">@color/primary</item>
