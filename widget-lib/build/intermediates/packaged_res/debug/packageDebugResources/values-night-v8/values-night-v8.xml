@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bar_min_valid">#AAE2AA</color>
+    <color name="bar_past">#333333</color>
+    <color name="primary">#FE58A3</color>
+    <color name="primaryDark">#D84285</color>
+    <color name="primaryLight">#FF7ABA</color>
+    <color name="widget_bg_default">#282828</color>
+    <color name="widget_text_primary">#E6E6E6</color>
+    <color name="widget_text_secondary">#B3B3B3</color>
+    <string name="app_name">Essent</string>
+    <string name="onesignal_notification_accent_color">FE58A3</string>
+</resources>

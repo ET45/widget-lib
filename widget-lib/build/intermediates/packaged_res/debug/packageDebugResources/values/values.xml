@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#E60167</color>
+    <color name="ic_launcher_background">#E60167</color>
+    <color name="primary">#E60167</color>
+    <color name="primaryDark">#B30056</color>
+    <color name="primaryLight">#FF4EA0</color>
+    <color name="widget_accent">#E60167</color>
+    <color name="widget_bg_default">#FFFFFF</color>
+    <color name="widget_icon_tint">#E60167</color>
+    <color name="widget_text_primary">#000000</color>
+    <color name="widget_text_secondary">#4D4D4D</color>
+    <string name="app_name">Essent</string>
+    <string name="onesignal_notification_accent_color">E60167</string>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar"/>
+</resources>

@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color accent
+color bar_min_valid
+color bar_past
+color ic_launcher_background
+color primary
+color primaryDark
+color primaryLight
+color widget_accent
+color widget_bg_default
+color widget_icon_tint
+color widget_text_primary
+color widget_text_secondary
+drawable light_icon
+id barChart
+id highestText
+id light
+id lowestText
+id lowest_hour
+id price_min
+id price_today
+id time_range
+id title
+id unitHigh
+id unitLow
+id widgetRoot
+layout widget_layout_large
+layout widget_layout_medium
+layout widget_layout_small
+string app_name
+string onesignal_notification_accent_color
+style AppTheme
+xml widget_info
