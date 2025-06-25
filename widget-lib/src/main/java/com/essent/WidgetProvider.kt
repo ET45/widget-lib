@@ -1,4 +1,6 @@
 package nl.essent.selfservice
+import com.essent.widget.R
+
 
 import android.app.AlarmManager
 import android.app.PendingIntent

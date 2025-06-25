@@ -1,4 +1,5 @@
 package nl.essent.selfservice
+import com.essent.widget.R
 
 import android.appwidget.AppWidgetManager
 import android.content.ComponentName
@@ -7,6 +8,7 @@ import android.graphics.Bitmap
 import android.widget.RemoteViews
 import java.text.SimpleDateFormat
 import java.util.*
+
 
 object WidgetUpdater {
 

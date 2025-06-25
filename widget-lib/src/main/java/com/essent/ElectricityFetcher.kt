@@ -1,4 +1,5 @@
 package nl.essent.selfservice
+import com.essent.widget.R
 
 import android.util.Log
 import org.json.JSONObject

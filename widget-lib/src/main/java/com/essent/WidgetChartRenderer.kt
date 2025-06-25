@@ -1,4 +1,6 @@
 package nl.essent.selfservice
+import com.essent.widget.R
+
 
 import android.content.Context
 import android.graphics.*
